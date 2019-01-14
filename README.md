@@ -53,8 +53,13 @@ Ho implementato una semplice applicazione per il calcolo delle imposte di vendit
 Il sistema deciderà se un prodotto viene importato o meno in base al token di parola "importato" dalla descrizione del prodotto. Gli articoli esenti sono determinati dalla lista di file statici che si trova nella cartella di input.
 
 Per iniziare, completare i seguenti passaggi:
+
 1)git clone del progetto
+
 2)Vai alla cartella radice del progetto estratto
+
 3)Esegui questo comando da Terminal / Command Line - "Esegui mvn clean install".
+
 4)Per eseguire il programma: mvn exec: java -Dexec.mainClass = "com.boku.main.SalesTaxCalculator" -Dexec.args = "input/input1.txt". Nota che -Dexec.args è il tuo percorso di file.
+
 5)Puoi anche provare ad esportare il jar eseguibile e lanciare il jar da terminal, ad es.: java-jar SalesTax.jar input/input1.txt
